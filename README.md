@@ -38,7 +38,9 @@ $ rails db:seed
 $ rails server
 ```
 
-ユーザーの新規作成やログインなどは既に出来る状態になっているはずです。
+ユーザーの新規作成やログインなどは既に出来る状態になっているはず。
 
 * **email** : sample@email.com
 * **password** : password
+* 
+
