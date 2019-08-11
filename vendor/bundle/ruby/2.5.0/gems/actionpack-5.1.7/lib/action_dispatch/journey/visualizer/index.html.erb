@@ -3,12 +3,17 @@
   <head>
     <title><%= title %></title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" type="text/css">
+    
+    <link rel="stylesheet" href="css/style.css">
+    
     <style>
       <% stylesheets.each do |style| %>
         <%= style %>
       <% end %>
     </style>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.4.8/d3.min.js" type="text/javascript"></script>
+
   </head>
   <body>
     <div id="wrapper">

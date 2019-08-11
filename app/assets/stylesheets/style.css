@@ -1,0 +1,24 @@
+.navbar-inverse {
+  background-color: #008080;
+}
+
+#logo {
+  text-transform: capitalize;
+  font-style: italic;
+}
+
+#logo:hover {
+  color: #808080;
+  text-decoration: none;
+}
+
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #FFF;
+  font-weight: bold;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #808080;
+  text-decoration: none;
+}
